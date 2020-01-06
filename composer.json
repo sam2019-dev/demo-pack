@@ -1,0 +1,29 @@
+{
+    "name": "itobuz/contact",
+    "description": "test package",
+    "type": "library",
+    "require": {
+        "google/apiclient": "^2.3"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "shomick",
+            "email": "shomick@itobuz.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Itobaz\\Contact\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Itobuz\\Contact\\ContactServiceProvider"
+            ]
+           
+        }
+    }
+}
