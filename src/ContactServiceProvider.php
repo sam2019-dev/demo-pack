@@ -1,5 +1,5 @@
 <?php
-namespace Itobaz\Contact;
+namespace Shomick\Contact;
 use Carbon\Laravel\ServiceProvider;
 
 class ContactServiceProvider extends ServiceProvider{

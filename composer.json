@@ -1,5 +1,5 @@
 {
-    "name": "itobuz/contact",
+    "name": "shomick/contact",
     "description": "test package",
     "type": "library",
     "require": {
@@ -15,13 +15,13 @@
     "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
-            "Itobaz\\Contact\\": "src/"
+            "Shomick\\Contact\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Itobuz\\Contact\\ContactServiceProvider"
+                "Shomick\\Contact\\ContactServiceProvider"
             ]
            
         }
